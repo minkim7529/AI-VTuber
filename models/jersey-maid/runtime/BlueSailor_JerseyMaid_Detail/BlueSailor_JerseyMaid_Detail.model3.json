@@ -1,0 +1,57 @@
+{
+  "Version": 3,
+  "FileReferences": {
+    "Moc": "BlueSailor_JerseyMaid_Detail.moc3",
+    "Textures": [
+      "BlueSailor_JerseyMaid_Detail.2048/texture_00.png"
+    ],
+    "DisplayInfo": "BlueSailor_JerseyMaid_Detail.cdi3.json",
+    "Physics": "BlueSailor_JerseyMaid_Detail.physics3.json",
+    "Expressions": [
+      {
+        "Name": "01_Surprised",
+        "File": "01_Surprised.exp3.json"
+      },
+      {
+        "Name": "02_Happy",
+        "File": "02_Happy.exp3.json"
+      },
+      {
+        "Name": "03_Contempt",
+        "File": "03_Contempt.exp3.json"
+      },
+      {
+        "Name": "04_Crying",
+        "File": "04_Crying.exp3.json"
+      },
+      {
+        "Name": "05_TongueOut",
+        "File": "05_TongueOut.exp3.json"
+      }
+    ],
+    "Motions": {
+      "Tongue": [
+        {
+          "File": "TongueOnce.motion3.json"
+        }
+      ]
+    }
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

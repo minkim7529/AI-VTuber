@@ -1,0 +1,53 @@
+{
+  "Version": 3,
+  "Meta": {
+    "Duration": 1.2,
+    "Fps": 30,
+    "Loop": false,
+    "AreBeziersRestricted": true,
+    "CurveCount": 2,
+    "TotalSegmentCount": 6,
+    "TotalPointCount": 8,
+    "UserDataCount": 0,
+    "TotalUserDataSize": 0
+  },
+  "FadeInTime": 0.1,
+  "FadeOutTime": 0.1,
+  "Curves": [
+    {
+      "Target": "Parameter",
+      "Id": "ParamTongueOut",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.22,
+        1,
+        0,
+        0.8,
+        1,
+        0,
+        1.2,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "ParamMouthOpenY",
+      "Segments": [
+        0,
+        0,
+        0,
+        0.22,
+        0.3,
+        0,
+        0.8,
+        0.3,
+        0,
+        1.2,
+        0
+      ]
+    }
+  ],
+  "UserData": []
+}

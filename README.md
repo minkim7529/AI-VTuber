@@ -6,7 +6,17 @@
 
 현재까지 만든 세일러복과 메이드복 모델의 작업 화면, 진행 과정, 사용한 프롬프트를 정리했습니다.
 
-**[사용한 프롬프트 전문](prompts/live2d-vtuber-production-prompt.md)** · **[원문 TXT](prompts/live2d-vtuber-production-prompt.txt)** · **[버전별 작업 기록](docs/production-notes.md)**
+**[리깅 모델 다운로드](models/README.md)** · **[사용한 프롬프트 전문](prompts/live2d-vtuber-production-prompt.md)** · **[원문 TXT](prompts/live2d-vtuber-production-prompt.txt)** · **[버전별 작업 기록](docs/production-notes.md)**
+
+## 리깅 모델 파일
+
+두 모델의 **Cubism 편집 원본(.cmo3)**과 **VTube Studio 실행 파일**도 함께 올렸습니다.
+
+- [세일러복 V2 refined 편집 원본](models/sailor/editable/BlueSailor_V2_refined.cmo3)
+- [메이드복 JawTurn R1 편집 원본](models/jersey-maid/editable/BlueSailor_JerseyMaid_JawTurnR1.cmo3)
+- [실행 폴더와 사용 방법](models/README.md)
+
+전체 파일은 저장소 상단의 **Code → Download ZIP**으로 받을 수 있습니다. VTube Studio용 모델은 텍스처와 물리·표정 설정이 필요하므로 실행 폴더 전체를 함께 사용해 주세요.
 
 ## 작업 결과
 
@@ -99,4 +109,4 @@ Live2D Cubism Editor 5.3.00 FREE에서 편집 파일을 열어 캡처한 화면�
 
 이 프롬프트는 처음 세일러복 상반신 모델을 만들 때 사용한 출발점입니다. 이후 메이드복 버전과 세부 보정은 추가 요청과 수정을 거쳐 진행했습니다.
 
-현재 저장소에는 작업 소개와 캡처, 프롬프트를 올려두었습니다. 모델 원본과 실행 파일은 포함하지 않았습니다.
+현재 저장소에는 작업 소개와 Cubism 캡처, 프롬프트, 두 모델의 CMO3 편집 원본과 VTube Studio 실행 파일을 올려두었습니다.

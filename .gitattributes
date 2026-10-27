@@ -1,0 +1,5 @@
+*.cmo3 binary
+*.moc3 binary
+*.png binary
+*.jpg binary
+models/**/runtime/**/*.json -text
