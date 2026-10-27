@@ -1,0 +1,36 @@
+[
+  {
+    "before": {
+      "Folder": "",
+      "Name": "Mouth Open",
+      "Input": "MouthOpen",
+      "InputRangeLower": 0.0,
+      "InputRangeUpper": 1.0,
+      "OutputRangeLower": 0.0,
+      "OutputRangeUpper": 1.0,
+      "ClampInput": true,
+      "ClampOutput": true,
+      "UseBlinking": false,
+      "UseBreathing": false,
+      "OutputLive2D": "ParamMouthOpenY",
+      "Smoothing": 5,
+      "Minimized": false
+    },
+    "after": {
+      "Folder": "",
+      "Name": "Mouth Open",
+      "Input": "MouthOpen",
+      "InputRangeLower": 0.012,
+      "InputRangeUpper": 0.6,
+      "OutputRangeLower": 0.0,
+      "OutputRangeUpper": 1.0,
+      "ClampInput": true,
+      "ClampOutput": true,
+      "UseBlinking": false,
+      "UseBreathing": false,
+      "OutputLive2D": "ParamMouthOpenY",
+      "Smoothing": 2,
+      "Minimized": false
+    }
+  }
+]

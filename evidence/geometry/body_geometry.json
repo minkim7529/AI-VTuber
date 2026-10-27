@@ -1,0 +1,31 @@
+{
+  "meshes": [
+    {
+      "mesh": "Sleeve_Hand_R",
+      "forms": 25,
+      "minimum_area_ratio": 0.9264243460432346
+    },
+    {
+      "mesh": "Sleeve_Hand_L",
+      "forms": 25,
+      "minimum_area_ratio": 0.9595630236373681
+    },
+    {
+      "mesh": "Skirt_Base",
+      "forms": 25,
+      "minimum_area_ratio": 0.9608854793237592
+    },
+    {
+      "mesh": "Apron_Front",
+      "forms": 25,
+      "minimum_area_ratio": 0.9663416946627371
+    },
+    {
+      "mesh": "Chest_Bow",
+      "forms": 5,
+      "minimum_area_ratio": 0.9398517556749766
+    }
+  ],
+  "unchanged_mesh_keyforms": 32,
+  "body_warp_forms": 25
+}

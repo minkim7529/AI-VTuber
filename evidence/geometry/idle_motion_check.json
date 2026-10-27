@@ -1,0 +1,14 @@
+{
+  "ParamHairFront": {
+    "idle_min": -0.15880946815013885,
+    "idle_max": 0.15993033349514008
+  },
+  "ParamHairSide": {
+    "idle_min": -0.10551214218139648,
+    "idle_max": 0.10107266902923584
+  },
+  "ParamHairBack": {
+    "idle_min": -0.08025427162647247,
+    "idle_max": 0.0767739787697792
+  }
+}

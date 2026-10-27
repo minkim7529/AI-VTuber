@@ -1,0 +1,18 @@
+# 이미지 생성 기록
+
+도구: built-in image_gen.imagegen. CLI/API fallback 사용 안 함.
+원본 참조: 00_source/original.png. 아래 최종 프롬프트들은 실제 마지막 호출에 사용한 텍스트다.
+
+## Reference 최종 yaw 보완 프롬프트
+
+Use case identity-preserve. Exact character head turnaround for Live2D rigging. THREE PANELS ONLY on neutral gray: LEFT YAW -15, FRONT 0, RIGHT YAW +15. Use image as AUTHORITATIVE original and preserve original face dimensions, enormous round blue eyes, small fine smile, pink cheek hatching, silvery blue bob exact bangs and white-blue-pink highlights. Every panel shows full head with generous top margin and neck/collar. Upright head, no roll, no pitch. CRITICAL: eyes must lie on the same near-horizontal eyeline across all three panels. Vertical skull axis upright like a passport photo. Neck vertical. Camera is level. Only yaw around the vertical axis changes. In yaw panels the far eye is narrower and closer to nose, nose shifts toward direction of yaw, far cheek narrows, hair overlap changes. No head leaning, no cute tilt, no rotation of image plane. Middle FRONT head must match original exactly. Retain original large eye to face ratio and asymmetry. No redesign. No 3/4 extreme angle. This final supplemental reference corrects pure yaw only.
+
+## Reference 2차 시트 프롬프트
+
+Use case identity-preserve. Correct the production reference sheet in image 2, using image 1 as the exact authoritative character. KEEP all 16 panels and labels, expressions and original character rendering. Fix ONLY framing and head orientation: every panel must include the ENTIRE top of hair and all flyaway strands with generous 10% blank margin above and on both sides; shrink head-and-shoulder framing to fit. Head X Left and Head X Right must be PURE YAW only ±15 degrees, absolutely NO head tilt/roll, both eyes remain at similar horizontal height; torso upright same as neutral. Nose, eye perspective and cheek silhouette change subtly. Head Y Up and Down pure pitch ±10 degrees. Neutral exact original face ratios and large eyes, retain the original slightly asymmetrical hair and pink-white reflected highlights. 4x4 grid, pale gray background. This is a reference sheet not a rig. Labels row1 Neutral, Eye Open, Eye Half, Eye Closed; row2 Mouth Closed, Mouth A, Mouth E, Mouth I; row3 Mouth O, Mouth U, Head X Left, Head X Right; row4 Head X Center, Head Y Up, Head Y Center, Head Y Down. Full head uncropped in EVERY panel.
+
+## Face base 최종 수정 프롬프트
+
+Surgical image edit, not a redraw. Extract exact facial skin from this original portrait in place. Full output canvas remains 971x1620. Do not move or resize ANY surviving original pixels. Original jaw tip at x496,y754 must stay there. Preserve exact original skin pixels in lower half of face, original cheek blush, original jaw edges and ears. Delete all image content EXCEPT the face. Remove hair, neck and clothing completely to transparent alpha. Fill in skin hidden by bangs and side hair, remove eyes, eyebrows, nose and mouth and inpaint those SMALL areas with matching skin. Face skin is completely opaque alpha255, outside face is completely alpha0 with only one pixel edge antialias. No translucent full-face coating. Transparent entire bottom half y756..1619, no pixels there. Original face width and position must stay identical, no enlarging or recentering, no new facial outline. This is a pixel-registered Live2D face_base layer. Output ONE layer only, genuine transparent PNG, no grid, no text. Most important preserve original jaw geometry and cool white-lavender lower-face color. Restoration of unseen forehead is fine but do not redesign visible face.
+
+전체 프롬프트가 요구한 조건은 성공 여부와 별개다. 실제 검수 결과는 08_test에 기록한다.

@@ -48,6 +48,8 @@ Live2D Cubism Editor 5.3.00 FREE에서 편집 파일을 열어 캡처한 화면�
 
 ## 작업은 이렇게 진행했습니다
 
+**[실제 파일로 돌아본 상세 제작 과정](docs/detailed-workflow.md)**에는 이미지 보완 프롬프트, PSD 검수와 실패 초안, 의상·혀·머리끝 보정, 구버전 iPhone 실기 입력 보정까지 정리했습니다. [제작 코드 3개](examples/historical/README.md)와 [측정 JSON](evidence/README.md)도 함께 공개했습니다.
+
 구버전 파일을 다시 보면서 **[파츠 분리와 수정 전후 과정](docs/rigging-retrospective.md)**도 정리했습니다. 초기 파츠 도판, 메이드복 목 연결과 얼굴 회전 비교, 리깅 구조, 머리카락 물리 보정, 작업 중 막혔던 부분을 볼 수 있습니다.
 
 ![같은 입력에서 비교한 메이드복 얼굴 회전 보정](assets/history/maid-volume-comparison.jpg)
