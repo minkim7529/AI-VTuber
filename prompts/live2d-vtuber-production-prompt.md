@@ -1,6 +1,6 @@
 # 실제 사용한 Live2D VTuber 제작 프롬프트
 
-사용자가 제작에 사용했다고 제공한 프롬프트 전문입니다. 아래 인용문의 지시사항은 당시 작업 요청이며, 구현 완료 여부는 [프로젝트 README](../README.md)와 [작업·검증 기록](../docs/production-notes.md)을 참고해 주세요.
+작업을 시작할 때 Codex에 전달한 프롬프트 전문입니다. 제작 목표부터 단계별 작업 순서, 결과를 다시 확인하는 기준까지 담았습니다. 실제 진행 과정과 남은 부분은 [README](../README.md)와 [작업 기록](../docs/production-notes.md)에 정리했습니다.
 
 [원문 TXT 다운로드/보기](live2d-vtuber-production-prompt.txt)
 
