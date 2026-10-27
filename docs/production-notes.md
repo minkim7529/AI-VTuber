@@ -41,7 +41,13 @@
 - `BlueSailor_V2_refined_release/editable/BlueSailor_V2_refined.cmo3`
 - `BlueSailor_JerseyMaid_JawTurnR1/editable/BlueSailor_JerseyMaid_JawTurnR1.cmo3`
 
-Cubism Editor 5.3.00 FREE에서 두 모델의 외형을 사용자 제공 이미지와 대조하고, 파츠·디포머·파라미터를 표시해 총 4장을 캡처했습니다. 이 날 VTube Studio나 iPhone 동작 검사를 새로 수행한 것은 아닙니다.
+Cubism Editor 5.3.00 FREE에서 두 모델의 외형을 사용자 제공 이미지와 대조하고, 파츠·디포머·파라미터를 표시해 총 4장을 캡처했습니다. 이 첫 캡처 작업에서는 VTube Studio나 iPhone 동작 검사를 수행하지 않았습니다.
+
+## 2026-10-27: VTube Studio 추가 실행 검증
+
+이후 사용자 요청으로 VTube Studio에서 두 모델을 직접 로드했습니다. 로컬 API 합성 입력으로 정면, 한쪽 눈 감기, 고개 회전과 입 개방, 중립 복귀를 확인하고 화면 6장을 추가했습니다. 설치된 MOC3와 소개한 배포본의 SHA-256도 일치했습니다. 촬영 후 테스트 입력을 종료했습니다.
+
+이번 추가 검사 역시 iPhone Face ID 실기 검증은 아닙니다. [실행 화면과 검사 방법](vts-live-test.md), [API 검증 요약](vts-validation-2026-10-27.json)을 참고하세요.
 
 ## 프롬프트와 결과의 관계
 
